@@ -134,13 +134,13 @@ struct incell_ctrl {
 };
 
 #define DEFAULT_FPS_LOG_INTERVAL 100
-#define DEFAULT_FPS_ARRAY_SIZE 120
+#define DEFAULT_FPS_ARRAY_SIZE 180
 
 #define HYBRID_INCELL ((bool)true)
 #define FULL_INCELL   ((bool)false)
 
-#define CHANGE_FPS_MIN 22
-#define CHANGE_FPS_MAX 60
+#define CHANGE_FPS_MIN 60
+#define CHANGE_FPS_MAX 90
 
 #define CHANGE_FPS_PORCH 2
 #define CHANGE_FPS_SEND 10
